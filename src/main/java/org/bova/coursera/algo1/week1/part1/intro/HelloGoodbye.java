@@ -1,4 +1,4 @@
-package org.bova.algo1.week1.part1.intro;
+package org.bova.coursera.algo1.week1.part1.intro;
 
 public class HelloGoodbye {
     public static void main(String[] args) {

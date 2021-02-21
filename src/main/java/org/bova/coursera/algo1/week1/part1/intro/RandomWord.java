@@ -1,4 +1,4 @@
-package org.bova.algo1.week1.part1.intro;
+package org.bova.coursera.algo1.week1.part1.intro;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;

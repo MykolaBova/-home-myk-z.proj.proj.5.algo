@@ -1,4 +1,4 @@
-package org.bova.algo1.week1.part2.unionfind;
+package org.bova.coursera.algo1.week1.part2.unionfind;
 
 /******************************************************************************
  *  Compilation:  javac QuickFindUF.java

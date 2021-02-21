@@ -1,4 +1,4 @@
-package org.bova.algo1;
+package org.bova.coursera.algo1;
 
 /*
     https://www.coursera.org/learn/algorithms-part1/home/welcome
