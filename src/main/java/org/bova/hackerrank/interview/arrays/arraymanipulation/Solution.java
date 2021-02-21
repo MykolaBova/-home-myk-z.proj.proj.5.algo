@@ -2,7 +2,7 @@ package org.bova.hackerrank.interview.arrays.arraymanipulation;
 
 /*
 OUTPUT_PATH
-/home/myk/z.proj.proj.4.algo/getting-started/src/main/java/org/bova/hackerrank/interview/arrays/arraymanipulation/out.tx
+/home/myk/z.proj.proj.4.algo/getting-started/src/main/java/org/bova/hackerrank/interview/arrays/arraymanipulation/out.txt
  */
 
 
