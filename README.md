@@ -3,7 +3,11 @@
 
 Bova
 
-algo1
+  algo1
+    https://www.coursera.org/learn/algorithms-part1/home/welcome
 
-interview
-
+  interview
+    https://www.hackerrank.com/interview/interview-preparation-kit
+    
+    
+    
