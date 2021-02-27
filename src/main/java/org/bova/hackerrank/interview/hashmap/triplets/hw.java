@@ -1,20 +1,31 @@
 package org.bova.hackerrank.interview.hashmap.triplets;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
+/**
+ * Problem Statement-
+ * Task https://www.hackerrank.com/challenges/count-triplets-1/problem
+ * Code -
+ * Slides -
+ * Video - https://www.youtube.com/watch?v=al5mvHLbCb4
+ */
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.toList;
+public class hw {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
 
-public class Solution {
+        List<Long> arr = new ArrayList<>();
 
-    // Complete the countTriplets function below.
+        arr.add(1L);
+        arr.add(2L);
+        arr.add(2L);
+        arr.add(4L);
+
+        countTriplets(arr, 2);
+    }
+
     private static long countTriplets(List<Long> arr, long r) {
         Map<Long, Long> leftMap = new HashMap<>();
         Map<Long, Long> rightMap = new HashMap<>();
@@ -53,28 +64,4 @@ public class Solution {
 
         return count;
     }
-
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
-        String[] nr = bufferedReader.readLine().replaceAll("\\s+$", "").split(" ");
-
-        int n = Integer.parseInt(nr[0]);
-
-        long r = Long.parseLong(nr[1]);
-
-        List<Long> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                .map(Long::parseLong)
-                .collect(toList());
-
-        long ans = countTriplets(arr, r);
-
-        bufferedWriter.write(String.valueOf(ans));
-        bufferedWriter.newLine();
-
-        bufferedReader.close();
-        bufferedWriter.close();
-    }
 }
-
