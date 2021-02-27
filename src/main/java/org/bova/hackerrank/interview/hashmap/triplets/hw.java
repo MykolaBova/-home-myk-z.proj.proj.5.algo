@@ -3,8 +3,8 @@ package org.bova.hackerrank.interview.hashmap.triplets;
 /**
  * Problem Statement-
  * Task https://www.hackerrank.com/challenges/count-triplets-1/problem
- * Code -
- * Slides -
+ * Code - https://github.com/MykolaBova/-home-myk-z.proj.proj.5.algo/blob/main/src/main/java/org/bova/hackerrank/interview/hashmap/triplets/hw.java
+ * Slides - https://github.com/MykolaBova/-home-myk-z.proj.proj.5.algo/blob/main/doc/hackerrank/interview/hashtable/triplets/Triples.pptx
  * Video - https://www.youtube.com/watch?v=al5mvHLbCb4
  */
 import java.util.ArrayList;
