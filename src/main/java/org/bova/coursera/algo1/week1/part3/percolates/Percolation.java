@@ -1,5 +1,6 @@
 package org.bova.coursera.algo1.week1.part3.percolates;
 
+
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.WeightedQuickUnionUF;
