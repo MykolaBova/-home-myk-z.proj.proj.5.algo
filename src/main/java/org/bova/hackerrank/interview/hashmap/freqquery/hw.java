@@ -1,4 +1,4 @@
-package org.bova.hackerrank.interview;
+package org.bova.hackerrank.interview.freqquery;
 
 /**
  * Problem Statement-
@@ -7,14 +7,12 @@ package org.bova.hackerrank.interview;
  * Slides -
  * Video - https://www.youtube.com/watch?v=al5mvHLbCb4
  */
-import edu.princeton.cs.algs4.In;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 public class hw {
     public static void main(String[] args) {
